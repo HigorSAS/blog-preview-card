@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-color: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.content-card {
+    width: 35rem;
+    border: 1px solid var(--Black);
+    padding: 2rem;
+    border-radius: 1.8rem;
+    background-color: var(--White);
+    box-shadow: 10px 10px var(--Black);
+}
+
+.card-img .img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.3rem;
+}
+
+.card-img {
+    padding-bottom: 1.6rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: var(--Black);
+    font-size: 1.6rem;
+    display: block;
+    background-color: var(--primary-color);
+    font-weight: 800;
+    width: 9rem;
+    border-radius: 1rem;
+    padding: .6rem;
+    text-align: center;
+}
+
+.card-btn {
+    padding-bottom: 1.3rem;
+}
+
+.card-publi {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.content-publi {
+    padding-bottom: 1.6rem;
+}
+
+.card-title {
+    font-size: 2.2rem;
+    color: var(--Black);
+    font-weight: 800;
+    padding-bottom: 1.6rem;
+}
+
+.content-main {
+    padding-bottom: 1.6rem;
+}
+
+.card-description {
+    font-size: 1.4rem;
+    font-weight: 600 lighter;
+    color: var(--Grey);
+    letter-spacing: .03rem;
+    line-height: 1.9rem;
+}
+
+
+.footer-card {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.footer-card .card-avatar {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+}
+
+.card-name {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
